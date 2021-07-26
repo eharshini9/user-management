@@ -17,4 +17,7 @@ class UserManagementApplicationTests {
 
     }
 
+    // controller - spring runner with mock mvc
+    // service mockito
+
 }

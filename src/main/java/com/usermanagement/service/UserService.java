@@ -69,4 +69,9 @@ public class UserService {
                              .get();
     }
 
+    public void uploadUsers(List<UserDTO> users) {
+        users.stream()
+             .forEach(user -> userRepository.save(user.asEntity()));
+    }
+
 }

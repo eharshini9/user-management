@@ -3,22 +3,26 @@ package com.usermanagement.dto;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.usermanagement.entity.Address;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class AddressDTO {
 
     private Integer addressid;
 
     private Integer id;
 
-    private Integer houseNum;
+    private String houseNum;
 
     private String streetName;
 
     private String city;
 
-    private Integer pincode;
+    private String pincode;
 
     private String addressType;
 

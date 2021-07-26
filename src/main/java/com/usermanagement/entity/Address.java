@@ -6,10 +6,14 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
 @Entity
+@AllArgsConstructor
+@NoArgsConstructor
 public class Address {
 
     @Id
@@ -21,7 +25,7 @@ public class Address {
     private Integer id;
 
     @Column(name = "HOUSE_NUMBER")
-    private Integer houseNum;
+    private String houseNum;
 
     @Column(name = "STREET")
     private String streetName;
@@ -30,7 +34,7 @@ public class Address {
     private String city;
 
     @Column(name = "PINCODE")
-    private Integer pincode;
+    private String pincode;
 
     @Column(name = "ADDRESStYPE")
     private String addressType;
