@@ -15,6 +15,6 @@
 Here is a [Link](https://www.getpostman.com/collections/dc586b0e65d95ce607ec)
 
 
-[![Build Status](https://travis-ci.com/eharshini9/java-practice.svg?branch=master)](https://travis-ci.com/eharshini9/java-practice)
-[![codecov](https://codecov.io/gh/eharshini9/java-practice/branch/master/graph/badge.svg)](https://codecov.io/gh/eharshini9/java-practice)
+[![Build Status](https://travis-ci.com/eharshini9/user-management.svg?branch=master)](https://travis-ci.com/eharshini9/user-management)
+[![codecov](https://codecov.io/gh/eharshini9/user-management/branch/master/graph/badge.svg)](https://codecov.io/gh/eharshini9/user-management)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
